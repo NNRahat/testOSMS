@@ -1,0 +1,33 @@
+# label e name aar baki info add kora jabe database theke value niye
+# catagories e value set kora thakbe
+# dynamic page loading diye korte hbe( https://www.youtube.com/watch?v=CMrIGqttOec&ab_channel=iJazed )
+# employee reg national id diye korle sob info jate chole ase seta kora jai naki dekte hbe
+# 
+\
+text box icon adder: 
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="email" name='Email' placeholder="Email" />
+            </div>
+
+
+
+.row{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+     margin-top: 5%;
+    display: grid;
+    /*justify-content: space-between; */
+}
+.services-col{
+    flex-basis: 22%;
+    background: #62dccbd7;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}

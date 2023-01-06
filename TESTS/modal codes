@@ -1,0 +1,116 @@
+
+
+<!-- login modal -->
+            <!-- <div id="id01" class="modal">
+                <form class="modal-content animate" method="post" action="">
+                    <div class="imgcontainer">
+                        
+                        <h1>LOGIN</h1>
+                    </div>
+
+                    <div class="container">
+                        <div class="conrow">
+                            <label><b>Email:</b></label>
+                            <input type="text" name="Email" required>
+                        </div>
+                        <div class="conrow">
+                            <label><b>Password:</b></label>
+                            <input type="password" name="Password" required>
+                        </div>
+                        <br>
+                        <div class="remforgot">
+                            <div class="rfor">
+                                <input type="checkbox" checked="checked"><label> Remember me</label>
+                            </div>
+                            <div class="forp">
+                                <span>
+                                    <a href="">Forgot password?</a>
+                                </span>
+                            </div>   
+                        </div><br>
+                        <button type="submit" name="login">Login</button><br><br>
+                        <hr><br>
+                        <div class="donthacc">
+                            <label>Don't hava an account?&emsp;</label>
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'; document.getElementById('id02').style.display='block'" class="cancelbtn">sign up</button><br>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div> -->
+<!-- signup modal -->
+            <!-- <div id="id02" class="modal">
+                <form class="modal-content animate" method="post">  
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close">&times;</span>
+                        <h1>SIGN UP</h1>                   
+                    </div>
+                    <div class="container">
+                        <div class="conrow">
+                            <label><b>Username:</b></label>
+                            <input type="text" name="uname" required>
+                        </div>
+                        <div class="conrow">
+                            <label><b>Email:</b></label>
+                            <input type="text" name="e_mail" required>
+                        </div>
+                        <div class="conrow">
+                            <label><b>Phone no:</b></label>
+                            <input type="text" name="phn_no" required>
+                        </div>
+                        <div class="conrow">
+                            <label><b>Password:</b></label>
+                            <input type="password" name="psw" required>
+                        </div>
+                        <div class="conrow">
+                                <label><b>Confirm Password:</b></label>
+                            <input type="password" class="cp" name="Cpsw" required>
+                        </div>
+                        <button type="submit" name="signup">Sign up</button><br>
+                        <hr>
+                        <div class="donthacc">
+                            <label>Already hava an account?</label>
+                            <button type="button" onclick="document.getElementById('id02').style.display='none'; document.getElementById('id01').style.display='block'" class="cancelbtn">Login!</button><br>
+                        </div>
+                    </div>
+                </form>
+            </div> -->
+
+<!-- success message doesnt do anything yet-->
+            <!-- <div id="id03" class="modal">
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close">&times;</span>
+                        <h1>Success</h1>
+                    </div>
+
+                    <div class="container">
+                        <p><b>Congratulation! You are successfully registered.Now you can log in!</b></p><br><br>
+                       <label>Don't hava an account?</label>
+                        <button type="button" onclick="document.getElementById('id03').style.display='none';document.getElementById('id02').style.display='none'; document.getElementById('id01').style.display='block'" class="cancelbtn midbtn">Log in</button><br>
+                    </div>
+                </form>
+            </div> -->
+            
+<!-- login function -->
+        <!-- <script>
+                var modal = document.getElementById('id01');
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                var modal2 = document.getElementById('id02');
+                window.onclick = function(event) {
+                    if (event.target == modal2) {
+                        modal2.style.display = "none";
+                    }
+                }
+                var modal3 = document.getElementById('id03');
+                window.onclick = function(event) {
+                    if (event.target == modal3) {
+                        modal3.style.display = "none";
+                    }
+                }
+
+        </script> -->
